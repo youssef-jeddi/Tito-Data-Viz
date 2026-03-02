@@ -20,7 +20,7 @@ Because ratings combine positional weighting, league modifiers, and a reputation
 
 ---
 
-** 2. Real 2024–25 Stats (`players_data-2024_2025.csv`)
+### 2. Real 2024–25 Stats (`players_data-2024_2025.csv`)
 
 > **Source:** [Football Players Stats 2024–2025](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025)
 
@@ -32,7 +32,7 @@ Beyond basic goals and assists, FBref provides granular metrics such as xG, prog
 
 ---
 
-** Joining the Datasets**
+### Joining the Datasets
 
 No shared ID exists between the two sources. Players are matched using fuzzy string matching based on **Name + Nation + Club**, with manual verification to resolve issues related to accents, abbreviations, and loan discrepancies.
 
