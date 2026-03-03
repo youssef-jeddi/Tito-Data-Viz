@@ -1,4 +1,4 @@
-## Overview
+## Overview/Problematic
 
 Last year, EA Sports assigned every player a single overall rating in its game FC 25. This number is not simply a reflection of the previous season; it blends positional attribute weighting, a league-level modifier, and an international reputation bonus of up to +3 overall, all assessed by more than 6,000 volunteer scouts worldwide. It is subjective by design.
 
@@ -33,3 +33,9 @@ Beyond basic goals and assists, FBref provides granular metrics such as xG, prog
 No shared ID exists between the two sources, so we will match players using fuzzy string matching based on **Name + Nation + Club**, with manual verification to resolve issues related to accents, abbreviations, and loan discrepancies.
 
 The final overlap (up to 2,800 players) is primarily concentrated in the Top 5 European leagues, which form the core analytical sample.
+
+---
+
+## Exploratory Data Analysis
+
+
